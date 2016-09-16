@@ -13,7 +13,8 @@ import cfg_constructor as cfg
 import cPickle as pickle
 import pdb
 from raw_graphs import *
-from discovRe_feature.discovRe import *
+#from discovRe_feature.discovRe import *
+from discovRe import *
 #import wingdbstub
 #wingdbstub.Ensure()
 def gt_funcNames(ea):
