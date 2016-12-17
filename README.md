@@ -6,7 +6,7 @@ This project provides two components of Genius, a graph-based bug search framewo
 	
 	-> Extract the attributes for each node in the grap
 	
-	The feature extraction is built on top of IDA-pro. We wrote the scripts based on ida-python and extract the attributed control flow graph. preprocessing_ida.py is the main program to extract the ACFG.
+	The feature extraction is built on top of IDA-pro. We wrote the scripts based on ida-python and extract the attributed control flow graph. ``preprocessing_ida.py'' is the main program to extract the ACFG.
 	
 2. The online bug search engine is used for real-time search:
 
